@@ -5,3 +5,10 @@ I configured in only devices I know to be on the board based on how I use it.  I
 NB:  I tend to favor built-in over modules.  My mind can be changed on this, however.
 
 I will update this on each RC, always saying "NO" to any new setting that is not relevant to the VF2.  Once a kernel version gets released, I will do a final build and from there create a new config file for the next version's first RC.
+
+The config here will have been tested to have compiled on my VF2:
+
+- Machine model: StarFive VisionFive 2 v1.3B
+- OS: Ubuntu Oracular Oriole 24.10
+- Boot device: MMC
+
