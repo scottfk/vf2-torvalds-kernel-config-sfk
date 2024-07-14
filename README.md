@@ -10,7 +10,7 @@ The config here will have been tested to have compiled on my VF2:
 
 - Machine model: StarFive VisionFive 2 v1.3B
 - OS: Ubuntu Oracular Oriole 24.10
-- Compiler: gcc (Ubuntu 14.1.0-2ubuntu1) 14.1.0
+- Compiler: gcc (Ubuntu 14.1.0-4ubuntu2) 14.1.0
 - Boot device: MMC
 - u-boot and spl from Ubuntu package u-boot-starfive:riscv64 version 2024.01+dfsg-1ubuntu6
 
