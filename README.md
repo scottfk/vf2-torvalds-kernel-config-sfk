@@ -12,5 +12,5 @@ The config here will have been tested to have compiled on my VF2:
 - OS: Ubuntu Oracular Oriole 24.10
 - Compiler: gcc (Ubuntu 14.1.0-5ubuntu1) 14.1.0
 - Boot device: MMC
-- u-boot and spl from Ubuntu package u-boot-starfive:riscv64 version 2024.01+dfsg-1ubuntu6
+- u-boot and spl from Ubuntu package u-boot-starfive:riscv64 version 2024.01+dfsg-5ubuntu1
 
