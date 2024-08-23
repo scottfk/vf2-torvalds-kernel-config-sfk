@@ -11,6 +11,15 @@ The config here will have been tested to have compiled on my VF2:
 - Machine model: StarFive VisionFive 2 v1.3B
 - OS: Ubuntu Oracular Oriole 24.10
 - Compiler: gcc (Ubuntu 14.2.0-2ubuntu1) 14.2.0
+- Binary Utilities: binutils (Ubuntu 2.43.1-2ubuntu1) 2.43.1
 - Boot device: MMC
 - u-boot and spl from Ubuntu package u-boot-starfive:riscv64 version 2024.01+dfsg-5ubuntu1
+
+How I build:
+
+- git pull the latest sources immediately after Linus announces the RC/Release
+- gmake -j5 mrproper to clean up after previous build
+- copy this kernel config as .config in the top level of the kernel sources
+- gmake -j5 oldconfig
+- nohup make INSTALL_MOD_STRIP=1 BUILD_TOOLS=y -j5 bindeb-pkg &
 
