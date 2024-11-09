@@ -23,3 +23,4 @@ How I build:
 - gmake -j5 oldconfig
 - nohup make INSTALL_MOD_STRIP=1 BUILD_TOOLS=y -j5 bindeb-pkg &
 
+WARNING!  Until this issue https://github.com/scottfk/vf2-torvalds-kernel-config-sfk/issues/2 gets fixed upstream, to get a stable kernel you need to revert dw_mmc.c and dw_mmc.h to the version pre- https://github.com/torvalds/linux/commit/921c87ba3893b5d3608e7f248366266b40b86c75
