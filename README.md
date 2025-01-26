@@ -14,7 +14,7 @@ The config here will have been tested to have compiled on my VF2:
 - Binary Utilities: binutils (Ubuntu 2.43.90.20250122-2ubuntu1) 20250122-2ubuntu1
 - Boot device: MMC
 - u-boot and spl from Ubuntu package u-boot-starfive:riscv64 version 2024.01+dfsg-5ubuntu3
-- pahole: pahole (1.28-1ubuntu1) v1.28
+- pahole: pahole (1.29-1ubuntu1) v1.29
 
 How I build:
 
