@@ -11,7 +11,7 @@ The config here will have been tested to have compiled on my VF2:
 - Machine model: StarFive VisionFive 2 v1.3B
 - OS (lsb_release --description): Ubuntu Plucky Puffin (development branch)
 - Compiler: gcc (Ubuntu 14.2.0-17ubuntu1) 14.2.0
-- Binary Utilities: binutils (Ubuntu 2.44-1ubuntu1) 2.44
+- Binary Utilities: binutils (Ubuntu 2.44-2ubuntu1) 2.44
 - Boot device: MMC
 - u-boot and spl from Ubuntu package u-boot-starfive:riscv64 version 2025.01-1~0ubuntu1
 - pahole: pahole (1.29-2ubuntu1) v1.29
