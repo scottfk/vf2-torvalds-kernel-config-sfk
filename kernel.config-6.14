@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/riscv 6.14.0-rc3 Kernel Configuration
+# Linux/riscv 6.14.0-rc4 Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Ubuntu 14.2.0-17ubuntu3) 14.2.0"
 CONFIG_CC_IS_GCC=y
@@ -1435,8 +1435,6 @@ CONFIG_EFI_CUSTOM_SSDT_OVERLAYS=y
 # CONFIG_EFI_DISABLE_RUNTIME is not set
 CONFIG_EFI_COCO_SECRET=y
 # end of EFI (Extensible Firmware Interface) Support
-
-# CONFIG_IMX_SCMI_MISC_DRV is not set
 
 #
 # Qualcomm firmware drivers
@@ -3231,7 +3229,6 @@ CONFIG_VIRTIO=y
 # CONFIG_STAGING is not set
 CONFIG_GOLDFISH=y
 # CONFIG_GOLDFISH_PIPE is not set
-# CONFIG_CZNIC_PLATFORMS is not set
 CONFIG_HAVE_CLK=y
 CONFIG_HAVE_CLK_PREPARE=y
 CONFIG_COMMON_CLK=y
