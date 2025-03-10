@@ -24,3 +24,4 @@ How I build:
 - gmake -j5 oldconfig
 - nohup make INSTALL_MOD_STRIP=1 BUILD_TOOLS=y -j5 bindeb-pkg &
 
+*20250310:  Currently frozen at rc4 due to https://github.com/scottfk/vf2-torvalds-kernel-config-sfk/issues/4*
