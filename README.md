@@ -9,12 +9,12 @@ I will update this on each RC, always saying "NO" to any new setting that is not
 The config here will have been tested to have compiled on my VF2:
 
 - Machine model: StarFive VisionFive 2 v1.3B
-- OS (lsb_release --description): Ubuntu Plucky Puffin (development branch)
-- Compiler: gcc (Ubuntu 14.2.0-17ubuntu1) 14.2.0
-- Binary Utilities: binutils (Ubuntu 2.44-2ubuntu1) 2.44
+- OS (lsb_release --description): Debian GNU/Linux forky/sid
+- Compiler: gcc (Debian 15.2.0-4) 15.2.0
+- Binary Utilities: binutils (GNU Binutils for Debian) 2.45
 - Boot device: MMC
 - u-boot and spl from Ubuntu package u-boot-starfive:riscv64 version 2025.01-1~0ubuntu2
-- pahole: pahole (1.29-2ubuntu1) v1.29
+- pahole: pahole v1.30
 
 How I build:
 
@@ -25,3 +25,4 @@ How I build:
 - nohup make INSTALL_MOD_STRIP=1 BUILD_TOOLS=y -j5 bindeb-pkg &
 
 *20250310:  Currently frozen at rc4 due to https://github.com/scottfk/vf2-torvalds-kernel-config-sfk/issues/4*
+*20251026:  Big changes.  I've moved to Debian, as Ubuntu abandoned all RISC-V cores that actually/currently exist.  And I have restarted trying to pare down a minimal kernel from Debian's out-of-the-box config.
