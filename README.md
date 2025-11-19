@@ -10,11 +10,10 @@ The config here will have been tested to have compiled on my VF2:
 
 - Machine model: StarFive VisionFive 2 v1.3B
 - OS (lsb_release --description): Debian GNU/Linux forky/sid
-- Compiler: gcc (Debian 15.2.0-4) 15.2.0
-- Binary Utilities: binutils (GNU Binutils for Debian) 2.45
+- Compiler: gcc (Debian 15.2.0-8) 15.2.0
+- Binary Utilities: binutils (GNU Binutils for Debian) 2.45-8
 - Boot device: MMC
-- u-boot and spl from Ubuntu package u-boot-starfive:riscv64 version 2025.01-1~0ubuntu2
-- pahole: pahole v1.30
+- pahole: pahole v1.31-1
 
 How I build:
 
