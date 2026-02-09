@@ -13,7 +13,7 @@ The config here will have been tested to have compiled on my VF2:
 - Compiler: gcc (Debian 15.2.0-12) 15.2.0
 - Binary Utilities: binutils (GNU Binutils for Debian) 2.45.90.20260201-1
 - Boot device: MMC
-- pahole: pahole v1.31-1
+- pahole: pahole v1.31-2
 
 How I build:
 
