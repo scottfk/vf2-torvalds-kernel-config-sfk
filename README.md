@@ -23,5 +23,5 @@ How I build:
 - gmake -j5 oldconfig
 - nohup make INSTALL_MOD_STRIP=1 BUILD_TOOLS=y -j5 bindeb-pkg &
 
-* 20251026:  Big changes.  I've moved to Debian, as Ubuntu abandoned all RISC-V cores that actually/currently exist.  And I have restarted trying to pare down a minimal kernel from Debian's out-of-the-box config.
-* 20260223:  Linux 7 is upon us!
+20251026:  Big changes.  I've moved to Debian, as Ubuntu abandoned all RISC-V cores that actually/currently exist.  And I have restarted trying to pare down a minimal kernel from Debian's out-of-the-box config.
+20260223:  Linux 7 is upon us!
