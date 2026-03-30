@@ -10,8 +10,8 @@ The config here will have been tested to have compiled on my VF2:
 
 - Machine model: StarFive VisionFive 2 v1.3B
 - OS (lsb_release --description): Debian GNU/Linux forky/sid
-- Compiler: gcc (Debian 15.2.0-13) 15.2.0
-- Binary Utilities: binutils (GNU Binutils for Debian) 2.46-2
+- Compiler: gcc (Debian 15.2.0-15) 15.2.0
+- Binary Utilities: binutils (GNU Binutils for Debian) 2.46-3
 - Boot device: MMC
 - pahole: pahole v1.31-2
 
@@ -23,5 +23,7 @@ How I build:
 - gmake -j5 oldconfig
 - nohup make INSTALL_MOD_STRIP=1 BUILD_TOOLS=y -j5 bindeb-pkg &
 
+
 20251026:  Big changes.  I've moved to Debian, as Ubuntu abandoned all RISC-V cores that actually/currently exist.  And I have restarted trying to pare down a minimal kernel from Debian's out-of-the-box config.
+
 20260223:  Linux 7 is upon us!
