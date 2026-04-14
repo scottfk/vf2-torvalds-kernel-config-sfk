@@ -8,7 +8,8 @@ I will update this on each RC, always saying "NO" to any new setting that is not
 
 The config here will have been tested to have compiled on my VF2:
 
-- Machine model: StarFive VisionFive 2 v1.3B
+- Machine model: StarFive VisionFive 2 v1.3Bi
+- Bootloader: u-boot-starfive:riscv64 2025.01-3.1 (Debian)
 - OS (lsb_release --description): Debian GNU/Linux forky/sid
 - Compiler: gcc (Debian 15.2.0-16) 15.2.0
 - Binary Utilities: binutils (GNU Binutils for Debian) 2.46-3
@@ -29,3 +30,5 @@ How I build:
 20251026:  Big changes.  I've moved to Debian, as Ubuntu abandoned all RISC-V cores that actually/currently exist.  And I have restarted trying to pare down a minimal kernel from Debian's out-of-the-box config.
 
 20260223:  Linux 7 is upon us!
+
+20260414:  I am now tracking the specific version of SPL and U-Boot I am using from Debian.
