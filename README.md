@@ -11,7 +11,7 @@ The config here will have been tested to have compiled on my VF2:
 - Machine model: StarFive VisionFive 2 v1.3Bi
 - Bootloader: u-boot-starfive:riscv64 2025.01-3.1 (Debian)
 - OS (lsb_release --description): Debian GNU/Linux forky/sid
-- Compiler: gcc (Debian 15.2.0-16) 15.2.0
+- Compiler: gcc (Debian 15.2.0-17) 15.2.0
 - Binary Utilities: binutils (GNU Binutils for Debian) 2.46-3
 - Boot device: MMC
 - pahole: pahole v1.31-2
