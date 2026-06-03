@@ -15,7 +15,7 @@ The config here will have been tested to have compiled on my VF2:
 - Binary Utilities: binutils (GNU Binutils for Debian) 2.46-3
 - Boot device: MMC
 - pahole: pahole v1.31-2
-- rustc: rustc 1.94.1 (e408947bf 2026-03-25)
+- rustc: rustc 1.95.0 (59807616e 2026-04-14)
 - rustc-llvm: 21.1.8
 
 How I build:
