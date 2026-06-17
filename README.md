@@ -9,7 +9,7 @@ I will update this on each RC, always saying "NO" to any new setting that is not
 The config here will have been tested to have compiled on my VF2:
 
 - Machine model: StarFive VisionFive 2 v1.3Bi
-- Bootloader: u-boot-starfive:riscv64 2025.01-3.1+b1 (Debian)
+- Bootloader: u-boot-starfive:riscv64 2025.01-3.2 (Debian)
 - OS (lsb_release --description): Debian GNU/Linux forky/sid
 - Compiler: gcc (Debian 15.2.0-17) 15.2.0
 - Binary Utilities: binutils (GNU Binutils for Debian) 2.46.50.20260608-1
