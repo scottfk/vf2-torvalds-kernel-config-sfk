@@ -12,7 +12,7 @@ The config here will have been tested to have compiled on my VF2:
 - Bootloader: u-boot-starfive:riscv64 2025.01-3.2 (Debian)
 - OS (lsb_release --description): Debian GNU/Linux forky/sid
 - Compiler: gcc (Debian 15.2.0-17) 15.2.0
-- Binary Utilities: binutils (GNU Binutils for Debian) 2.46.50.20260608-1
+- Binary Utilities: binutils (GNU Binutils for Debian) 2.46.50.20260617-1
 - Boot device: MMC
 - pahole: pahole v1.31-2
 - rustc: rustc 1.95.0 (59807616e 2026-04-14)
