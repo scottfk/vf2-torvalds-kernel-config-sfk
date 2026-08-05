@@ -34,3 +34,5 @@ How I build:
 20260414:  I am now tracking the specific version of SPL and U-Boot I am using from Debian.
 
 20260622:  Just for grins I started tracking Debian Experimental.
+
+20260805:  Networking on my VF2 seems to have died.  U-Boot doesn't even see the PHY.  I will continue nudging it every now and again, but I fear it's a hardware issue.  If that's the case, I don't see buying another VF2.  I'd go for something RVA23.  So this project might be dead.
