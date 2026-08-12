@@ -36,3 +36,5 @@ How I build:
 20260622:  Just for grins I started tracking Debian Experimental.
 
 20260805:  Networking on my VF2 seems to have died.  U-Boot doesn't even see the PHY.  I will continue nudging it every now and again, but I fear it's a hardware issue.  If that's the case, I don't see buying another VF2.  I'd go for something RVA23.  So this project might be dead.
+
+20260812:  I thought I was being clever, buying a cheap-ish USB NIC.  USB ports don't seem to work either.  A decent part of my board seems to have died.  It is now even less likely I will resume this project.
